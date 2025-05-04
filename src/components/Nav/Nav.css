@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #e8415d;
+    transform: scale(1.1);
+    border-bottom: 2px solid #ffc0cb;
+  }
